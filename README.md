@@ -1,1 +1,3 @@
-# palm_ui
+# Palm UI
+
+Interface files for the PaLM website
