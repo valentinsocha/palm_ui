@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Paris League of Modern</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="design/main.css" type="text/css" />
+		<link rel="stylesheet" href="design/font.css" type="text/css" />
+		<script>
+		function openNav() {
+		    document.getElementById("navMobile").style.width = "100vw";
+		}
+		 
+		function closeNav() {
+		    document.getElementById("navMobile").style.width = "0";
+		}
+		</script>
+	</head>
+	<body>
+		<nav id="navMobile">
+			<div id="navMobileWrapper">
+	  			<div id="navMobileClose"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img id="menuIconClose" src="design/icon_menu_close.svg" /></a></div>
+	  			<div id="navMobileInternal">
+		  			<div class="navMobileItem">
+						<a href="events.html"><span class="navMobileLinkLabel">Événements</span></a>
+					</div>
+					<div class="navMobileItem">
+						<a href="ranking.html"><span class="navMobileLinkLabel">Classement</span></a>
+					</div>
+					<div class="navMobileItem">
+						<a href="rules.html"><span class="navMobileLinkLabel">Règlement</span></a>
+					</div>
+					<div class="navMobileItem">
+						<a href="final.html"><span class="navMobileLinkLabel">Grande finale</span></a>
+					</div>
+				</div>
+				<div id="navMobileExternal">
+					<div class="navMobileItem">
+						<a href="mailto:parisleaguemodern@gmail.com">
+							<span class="navMobileLinkIcon" id="navMobileIconMail"></span> 
+							<span class="navMobileLinkLabel">Mail</span>
+						</a>
+					</div>
+					<div class="navMobileItem">
+						<a href="https://www.facebook.com/Dessine-moi-un-Gobelin-843181532683583/">
+							<span class="navMobileLinkIcon" id="navMobileIconFacebook"></span> 
+							<span class="navMobileLinkLabel">Facebook</span>
+						</a>
+					</div>
+					<div class="navMobileItem">
+						<a href="https://twitter.com/dessineG">
+							<span class="navMobileLinkIcon" id="navMobileIconTwitter"></span> 
+							<span class="navMobileLinkLabel">Twitter</span>
+						</a>
+					</div>
+				</div>
+	  		</div>
+		</nav>
+		<header>
+			<div id="headerWrapper">
+				<div id="headerLogo">
+					<a href="index.html"><img id="headerLogoImg" src="design/logo_header.png" /></a>
+				</div>
+				<div id="headerNav">
+					<nav id="navFull">
+						<span class="headerNavItem"><a href="events.html">Événements</a></span>
+						<span class="headerNavItem"><a href="ranking.html">Classement</a></span>
+						<span class="headerNavItem"><a href="rules.html">Règlement</a></span>
+						<span class="headerNavItem current">Grande finale</span>
+					</nav>
+					<nav id="navShort">
+						<a href="#" onclick="openNav()"><img id="menuIconOpen" src="design/icon_menu_open.svg" /></a>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="contentGeneric">
+				<section class="editorial">
+					<img class="editoImage" src="assets/img/hero.jpeg"/>
+					<p>La Finale de la Paris League of Modern verra s’affronter les meilleurs joueurs de la ligue dans un tournoi avec une dotation minimale de 1000 euros. Elle aura lieu en décembre 2019, plus d’informations sur le lieu et la date très bientôt.</p>
+				</section>
+			</div>
+		</main>
+		<footer>
+			<div id="footerWrapper">
+				<div id="footerCredit">© 2019</div>
+				<div id="footerNav">
+					<nav>
+						<div class="footerNavItem">
+							<a href="mailto:parisleaguemodern@gmail.com">
+								<span class="footerLinkIcon" id="footerIconMail"></span> 
+								<span class="footerLinkLabel">Mail</span>
+							</a>
+						</div>
+						<div class="footerNavItem">
+							<a href="https://www.facebook.com/Dessine-moi-un-Gobelin-843181532683583/">
+								<span class="footerLinkIcon" id="footerIconFacebook"></span> 
+								<span class="footerLinkLabel">Facebook</span>
+							</a>
+						</div>
+						<div class="footerNavItem">
+							<a href="https://twitter.com/dessineG">
+								<span class="footerLinkIcon" id="footerIconTwitter"></span> 
+								<span class="footerLinkLabel">Twitter</span>
+							</a>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
